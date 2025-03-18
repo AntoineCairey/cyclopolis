@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
     <img
-      src="https://cyclopolis.lavilleavelo.org/carte-voies-lyonnaises-2026.png"
+      src="https://www.bordeaux-metropole.fr/sites/MET-BXMETRO-DRUPAL/files/styles/paragraphe_media_image_video_x2/public/2024-09/cartographie%20ReVE%20-%20sept%202024.JPG"
       class="object-contain w-full h-screen"
       :alt="`plan officiel des ${getRevName()}`"
     >
@@ -11,8 +11,8 @@
 <script setup lang="ts">
 const { getRevName } = useConfig();
 
-const description = `Découvrez le plan officiel des ${getRevName()}, le futur réseau vélo lyonnais de 260km.`;
-const COVER_IMAGE_URL = 'https://cyclopolis.lavilleavelo.org/cyclopolis.png';
+const description = `Découvrez le plan officiel des ${getRevName()}, le futur réseau vélo bordelais de 270km.`;
+const COVER_IMAGE_URL = 'https://velo-cite.org/wp-content/uploads/2023/10/cropped-VELO-CITE-2023_couleur-horizontal-1.png';
 
 useHead({
   title: `Plan des ${getRevName()}`,

@@ -30,12 +30,12 @@ const { getAssoName } = useConfig();
 
 const links = [
   { name: 'Mentions légales', path: '/mentions-legales' },
-  { name: 'Historique', path: '/historique' },
+  /* { name: 'Historique', path: '/historique' }, */
   { name: 'Sites partenaires', path: '/sites-partenaires' }
 ];
 
 const socials = [
-  {
+  /* {
     name: 'Bluesky',
     href: 'https://bsky.app/profile/lavilleavelo.bsky.social',
     icon: 'fa6-brands:bluesky'
@@ -46,33 +46,38 @@ const socials = [
     icon: 'mdi:mastodon'
   },
   {
-    name: 'Facebook',
-    href: 'https://www.facebook.com/lavilleavelolyon/',
-    icon: 'mdi:facebook'
-  },
-  {
-    name: 'LinkedIn',
-    href: 'https://www.linkedin.com/company/la-ville-%C3%A0-v%C3%A9lo',
-    icon: 'mdi:linkedin'
-  },
-  {
-    name: 'Instagram',
-    href: 'https://www.instagram.com/lavilleavelolyon',
-    icon: 'mdi:instagram'
-  },
-  {
     name: 'Github',
     href: 'https://github.com/lavilleavelo/cyclopolis',
     icon: 'mdi:github'
+  }, */
+  {
+    name: 'Facebook',
+    href: 'https://fr-fr.facebook.com/velocite.bordeauxmetropole/',
+    icon: 'mdi:facebook'
+  },
+  {
+    name: 'Twitter',
+    href: 'https://twitter.com/velocitebdx',
+    icon: 'mdi:twitter'
+  },
+  {
+    name: 'Instagram',
+    href: 'https://www.instagram.com/velocitebordeauxmetropole/',
+    icon: 'mdi:instagram'
+  },
+  {
+    name: 'LinkedIn',
+    href: 'https://www.linkedin.com/company/v%C3%A9lo-cit%C3%A9-bordeaux/',
+    icon: 'mdi:linkedin'
   },
   {
     name: 'Site web',
-    href: 'https://lavilleavelo.org/',
+    href: 'https://velo-cite.org/',
     icon: 'mdi:link'
   },
   {
     name: 'Email',
-    href: 'mailto:contact_at_lavilleavelo.org',
+    href: 'mailto:contact_at_velo-cite.org',
     icon: 'mdi:email-outline'
   }
 ];

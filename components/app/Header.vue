@@ -4,7 +4,7 @@
       <div class="flex justify-between items-center py-3 sm:py-6 md:justify-start md:space-x-10">
         <div class="flex justify-start items-center lg:w-0 lg:flex-1">
           <NuxtLink to="/" class="flex space-x-2">
-            <span class="sr-only">Cyclopolis</span>
+            <!-- <span class="sr-only">Cyclopolis</span>
             <img
               class="h-7 w-auto sm:h-8"
               src="https://cyclopolis.lavilleavelo.org/logo-la-ville-a-velo.png"
@@ -14,7 +14,8 @@
               class="h-8 w-auto sm:h-10"
               src="https://cyclopolis.lavilleavelo.org/logo-cyclopolis-header.png"
               alt="logo cyclopolis"
-            >
+            > -->
+            <div class="text-lvv-blue-600 font-bold text-xl">Observatoire du ReVE Bordeaux</div>
           </NuxtLink>
         </div>
         <div class="-mr-2 -my-2 md:hidden">
@@ -49,13 +50,13 @@
                     >
                       Carte interactive
                     </NuxtLink>
-                    <NuxtLink
+                    <!-- <NuxtLink
                       to="/evolution"
                       class="text-base font-medium text-gray-500 hover:text-lvv-blue-600"
                       @click="close()"
                     >
                       Évolution du réseau
-                    </NuxtLink>
+                    </NuxtLink> -->
                     <NuxtLink
                       to="/plan-officiel"
                       class="text-base font-medium text-gray-500 hover:text-lvv-blue-600"
@@ -69,7 +70,7 @@
                       class="flex align-center space-x-2 text-base font-medium text-gray-500 hover:text-lvv-blue-600"
                       @click="close()"
                     >
-                      <span>Baromètre FUB Lyon</span>
+                      <span>Baromètre FUB Bordeaux</span>
                       <div class="flex items-center">
                         <Icon name="mdi:launch" class="h-4 w-4" aria-hidden="true" />
                       </div>
@@ -125,7 +126,7 @@
           </Popover>
 
           <!-- Compteurs -->
-          <Popover v-slot="{ open }" class="relative">
+          <!-- <Popover v-slot="{ open }" class="relative">
             <PopoverButton :class="[open ? 'text-gray-900' : 'text-gray-500', 'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-lvv-blue-600 focus:outline-none focus:ring-2 focus:ring-lvv-blue-600 focus:ring-offset-2']">
               <span>Compteurs</span>
               <Icon name="mdi:chevron-down" :class="[open ? 'text-gray-600' : 'text-gray-400', 'ml-2 h-5 w-5 group-hover:text-gray-500']" aria-hidden="true" />
@@ -166,16 +167,19 @@
                 </div>
               </PopoverPanel>
             </transition>
-          </Popover>
+          </Popover> -->
+
         </PopoverGroup>
-        <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
+
+        <!-- <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
           <NuxtLink
             to="/blog"
             class="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-lvv-blue-600 hover:shadow-lg transition duration-300 transform hover:scale-105"
           >
             Blog
           </NuxtLink>
-        </div>
+        </div> -->
+
       </div>
     </div>
 
@@ -315,7 +319,7 @@ const navItems = [
   { name: 'Carte interactive', path: '/carte-interactive', target: '_self' },
   { name: 'Plan officiel', path: '/plan-officiel', target: '_self' },
   { name: 'Évolution du réseau', path: '/evolution', target: '_self' },
-  { name: 'Baromètre FUB Lyon', path: 'https://barometre.parlons-velo.fr/2021/carte/#11.88/45.74926/4.84739', target: '_blank' }
+  { name: 'Baromètre FUB Bordeaux', path: 'https://barometre.parlons-velo.fr/2021/carte/#11.09/44.8268/-0.5758', target: '_blank' }
   // { name: 'Services', path: '/services' },
 ];
 

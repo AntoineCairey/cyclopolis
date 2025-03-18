@@ -6,7 +6,7 @@
           Sites partenaires
         </h2>
         <p class="mt-3 text-xl text-gray-500 sm:mt-4">
-          Découvrez d'autres observatoires à travers le pays, dont certains sont basés sur notre travail en Open Source.
+          Découvrez d'autres observatoires de réseaux cyclables à travers le pays.
         </p>
       </div>
       <div class="mt-12 grid gap-16 pt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-4">

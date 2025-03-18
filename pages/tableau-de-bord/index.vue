@@ -10,7 +10,7 @@
       <ProgressBar :voies="voies" />
       <Stats :voies="voies" :precision="1" class="mt-8 max-w-2xl mx-auto" />
       <StatsQuality v-if="displayQuality()" class="mt-8 max-w-2xl mx-auto" :voies="voies" :precision="1" />
-      <Typology :voies="voies" class="mt-8 max-w-2xl mx-auto" />
+      <!-- <Typology :voies="voies" class="mt-8 max-w-2xl mx-auto" /> -->
 
       <div v-for="voie in voies" :key="voie.line" class="py-2 my-8 flex">
         <div class="mr-4 w-2 lg:w-4 rounded-lg" :style="`background: ${getLineColor(getLine(voie))}`" />
@@ -32,7 +32,7 @@
             <ProgressBar :voies="[voie]" />
             <Stats :voies="[voie]" :precision="1" class="mt-8" />
             <StatsQuality v-if="displayQuality()" :voies="[voie]" :precision="1" />
-            <Typology :voies="[voie]" class="mt-8 max-w-2xl mx-auto" />
+            <!-- <Typology :voies="[voie]" class="mt-8 max-w-2xl mx-auto" /> -->
           </div>
         </div>
       </div>

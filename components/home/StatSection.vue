@@ -6,7 +6,7 @@
           Les {{ getRevName() }}, c'est quoi ?
         </h2>
         <p class="mt-3 text-xl text-gray-500 sm:mt-4">
-          C'est le nom donné au projet de réseau cyclable porté par la Métropole de Lyon.<br>Concrètement, une {{ getRevName('singular') }} est une voie cyclable large (3 à 4m), souvent sous forme de piste bidirectionnelle et séparée des voitures. L'ensemble doit créer un maillage cyclable sans discontinuités qui connecte les quartiers lyonnais aux communes de la périphérie de la métropole.
+          C'est le nom donné au projet de réseau cyclable porté par Bordeaux Métropole.<br>Concrètement, une {{ getRevName('singular') }} est une voie cyclable large (3 à 4m), souvent sous forme de piste bidirectionnelle et séparée des voitures. L'ensemble doit créer un maillage cyclable sans discontinuités qui connecte les différentes communes de la métropole.
         </p>
       </div>
     </div>
@@ -29,7 +29,7 @@
                   Distance
                 </dt>
                 <dd class="order-1 text-5xl font-extrabold text-lvv-blue-600">
-                  260km
+                  270km
                 </dd>
               </div>
               <div class="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
@@ -37,7 +37,7 @@
                   Budget
                 </dt>
                 <dd class="order-1 text-5xl font-extrabold text-lvv-blue-600">
-                  280M€
+                  70M€
                 </dd>
               </div>
             </dl>
