@@ -171,14 +171,14 @@
 
         </PopoverGroup>
 
-        <!-- <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
+        <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
           <NuxtLink
-            to="/blog"
+            to="https://velo-cite.org/"
             class="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-lvv-blue-600 hover:shadow-lg transition duration-300 transform hover:scale-105"
           >
             Blog
           </NuxtLink>
-        </div> -->
+        </div>
 
       </div>
     </div>
@@ -232,7 +232,7 @@
                 </NuxtLink>
 
                 <!-- Compteurs -->
-                <hr class="h-px bg-gray-200 border-0">
+                <!-- <hr class="h-px bg-gray-200 border-0">
 
                 <NuxtLink
                   to="/compteurs/velo"
@@ -260,13 +260,13 @@
                   <span class="ml-3 text-base font-medium text-gray-900">
                     Comparaison voiture/vélo
                   </span>
-                </NuxtLink>
+                </NuxtLink> -->
 
                 <!-- Autres -->
                 <hr class="h-px bg-gray-200 border-0">
 
                 <NuxtLink
-                  to="/blog"
+                  to="https://velo-cite.org/"
                   class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                   @click="close()"
                 >
@@ -318,7 +318,7 @@ const { getAssoName } = useConfig();
 const navItems = [
   { name: 'Carte interactive', path: '/carte-interactive', target: '_self' },
   { name: 'Plan officiel', path: '/plan-officiel', target: '_self' },
-  { name: 'Évolution du réseau', path: '/evolution', target: '_self' },
+  /* { name: 'Évolution du réseau', path: '/evolution', target: '_self' }, */
   { name: 'Baromètre FUB Bordeaux', path: 'https://barometre.parlons-velo.fr/2021/carte/#11.09/44.8268/-0.5758', target: '_blank' }
   // { name: 'Services', path: '/services' },
 ];

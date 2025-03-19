@@ -1,10 +1,10 @@
 import config from './config.json';
 
-const TITLE = `Cyclopolis - Suivi des ${config.revName.plural} par ${config.assoName}`;
+const TITLE = `Observatoire du ReVE Bordeaux`;
 const DESCRIPTION =
-  `Plateforme citoyenne et associative, par ${config.assoName}. État d'avancement, cartes interactives des itinéraires, détails, travaux : suivez le développement du réseau cyclable sécurisé lyonnais`;
-const BASE_URL = 'https://cyclopolis.fr';
-const COVER_IMAGE_URL = 'https://cyclopolis.lavilleavelo.org/cyclopolis.png';
+  `Plateforme citoyenne et associative, par ${config.assoName}. État d'avancement, cartes interactives des itinéraires, détails, travaux : suivez le développement du réseau cyclable sécurisé bordelais`;
+const BASE_URL = 'https://observatoire-reve-bordeaux.vercel.app/';
+const COVER_IMAGE_URL = 'https://velo-cite.org/wp-content/uploads/2023/10/cropped-VELO-CITE-2023_couleur-horizontal-1.png';
 
 export default defineNuxtConfig({
   app: {
